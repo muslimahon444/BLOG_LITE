@@ -29,7 +29,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
-    'rest_framework'
+    'rest_framework',
+    'drf_spectacular',  # Добавляем drf_spectacular для OpenAPI
 ]
 
 MIDDLEWARE = [
